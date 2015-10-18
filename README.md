@@ -18,3 +18,7 @@ A demo github repository to show Carto Development team the benefits of Git / St
 8. Repeat steps 4-7 until all required changes are have been made
 9. Check the status of the repository (to ensure it is in the expected state)
 9. Push the changes to the remote repo (or merge dependant on team git protocol)
+
+##Resources:
+- Git tutorial - [https://try.github.io]
+- Github (repository host) - [https://github.com]

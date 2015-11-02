@@ -1,36 +1,3 @@
-'''<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-    NAME:       OpenMxd.py
-
-    PURPOSE:    Python tool created for use within Arc Workflow manager to open
-                an MXD dependant on the Job ID and tile number supplied.
-
-    FUNCTIONS:
-    ID      Name                                    Creator             Date
-    ------  ------------------------            ----------------    ------------
-
-    REVISIONS:
-    Ver         Date        Author      Description
-    ----------  ----------  ----------  ----------------------------------------
-    1.0.0       11/07/2014  L Heritage  Script Creator
-    ----------------------------------------------------------------------------
-
-
-    VERSION CONTROL:
-    To clear up any ambiguity over version number increments, the approved
-    version schema is as follows:
-
-        MAJOR:  Change IS NOT backward compatible and requires changing project
-                name, path to files, GUIDs etc
-        MINOR:  Change IS backward compatible. Marks introduction of new
-                features
-        REV:    Change IS forward/backward compatible. Revision is used for
-                security/bug fixes or minimal code amendments
-
-    The schema should be written as follows:
-        MINOR.MAJOR.VER - 2.4.13
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'''
 TOOL_VERSION = "1.0.0"
 import arcpy
 import os
